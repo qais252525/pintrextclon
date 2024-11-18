@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pintrast</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    
+
+
+
+    <style>
+        .hove :hover { 
+            background-color:#ccd9e6;
+           padding: 3px 3px 6px 3px;
+           border-radius: 50px;
+        }
+
+        .butn :hover{
+            background-color:#ccd9e6;
+            
+            border-radius: 4px;
+           
+            
+
+        }
+
+        .bac :hover{
+            background-color: antiquewhite;
+
+        }
+
+       
+    </style>
+    
+
+
+
+</head>
+<body>
+    <header class="container-fluid" height="180px">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+            <div class="container-fluid py-2" >
+                
+
+                <a class="navbar-brand" href="#" >
+                    <img src="./Template/logo.png" alt="Logo" height="28">
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="Index.html"><button type="button" class="btn btn-dark rounded-pill px-3" >Home</button></a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn  fw-bold">Create</button>
+                        </li>
+                    </ul>
+    
+                   
+                    <form class="d-flex w-100 mx-lg-3 dropdown">
+                       
+            
+                    
+                        <input type="search" class="form-control rounded-pill px-4  dropdown-toggle" placeholder="🔎 Search " data-toggle="dropdown" aria-label="Search" style="height: 60px;  " id="searchdata">
+
+
+                        <div class="container dropdown-menu w-100 p-4  mt-5" aria-labelledby="searchdata" >
+                            <h6>Ideas for you</h6>
+                            <div class="row  mb-4">
+                                <div class="col-4 px-4"> 
+                                     <div class="row   ">
+                                    <div class="col-4 px-0 ">
+                                        <img src="./Template/10.jpeg" alt="" width="100px" height="100px" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; "></div>
+                                    <div class="col-8 bg-body-secondary align-content-center " style="border-top-right-radius: 10px; border-bottom-right-radius: 10px; " >
+                                        <div class="card-body">
+                                             <h6 class=" card-title">Gallery Walpapper</h6>
+                                        </div>
+                                       </div>
+                                </div>
+                            </div>
+                            <div class="col-4 px-4 " > 
+                                <div class="row  ">
+                               <div class="col-4 px-0 " >
+                                   <img src="./Template/10.jpeg" alt="" width="100px" height="100px" class=" card-img" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; "></div>
+                               <div class="col-8 bg-body-secondary align-content-center "  style="border-top-right-radius: 10px; border-bottom-right-radius: 10px; " >
+                                   <div class="card-body">
+                                        <h6 class=" card-title">Gallery Walpapper</h6>
+                                   </div>
+                                  </div>
+                           </div>
+                       </div>
+                       <div class="col-4 px-4"> 
+                        <div class="row  ">
+                       <div class="col-4 px-0">
+                           <img src="./Template/10.jpeg" alt="" width="100px" height="100px" class=" card-img" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; "></div>
+                       <div class="col-8 bg-body-secondary align-content-center "  style="border-top-right-radius: 10px; border-bottom-right-radius: 10px; " >
+                           <div class="card-body">
+                                <h6 class=" card-title">Gallery Walpapper</h6>
+                           </div>
+                          </div>
+                                   </div>
+                          </div>
+                      </div>
+            
+                      <h6>Ideas for you</h6>
+                            <div class="row  mb-4">
+                                <div class="col-4 px-4"> 
+                                     <div class="row   ">
+                                    <div class="col-4 px-0 " >
+                                        <img src="./Template/10.jpeg" alt="" width="100px" height="100px" class=" card-img" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; "></div>
+                                    <div class="col-8 bg-body-secondary align-content-center "  style="border-top-right-radius: 10px; border-bottom-right-radius: 10px; " >
+                                        <div class="card-body">
+                                             <h6 class=" card-title">Gallery Walpapper</h6>
+                                        </div>
+                                       </div>
+                                </div>
+                            </div>
+                            <div class="col-4 px-4 "> 
+                                <div class="row  ">
+                               <div class="col-4 px-0">
+                                   <img src="./Template/10.jpeg" alt="" width="100px" height="100px" class=" card-img" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; "></div>
+                               <div class="col-8 bg-body-secondary align-content-center "  style="border-top-right-radius: 10px; border-bottom-right-radius: 10px; " >
+                                   <div class="card-body">
+                                        <h6 class=" card-title">Gallery Walpapper</h6>
+                                   </div>
+                                  </div>
+                           </div>
+                       </div>
+                             
+                            </div>
+            
+            
+                            <h6>Ideas for you</h6>
+                            <div class="row  mb-4">
+                                <div class="col-4 px-4"> 
+                                     <div class="row   ">
+                                    <div class="col-4 px-0" >
+                                        <img src="./Template/10.jpeg" alt="" width="100px" height="100px" class=" card-img"style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; "></div>
+                                    <div class="col-8 bg-body-secondary align-content-center "  style="border-top-right-radius: 10px; border-bottom-right-radius: 10px; " >
+                                        <div class="card-body">
+                                             <h6 class=" card-title">Gallery Walpapper</h6>
+                                        </div>
+                                       </div>
+                                </div>
+                            </div>
+                            <div class="col-4 px-4 "> 
+                                <div class="row  ">
+                               <div class="col-4 px-0">
+                                   <img src="./Template/10.jpeg" alt="" width="100px" height="100px" class=" card-img" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; "></div>
+                               <div class="col-8 bg-body-secondary align-content-center "  style="border-top-right-radius: 10px; border-bottom-right-radius: 10px; " >
+                                   <div class="card-body">
+                                        <h6 class=" card-title">Gallery Walpapper</h6>
+                                   </div>
+                                  </div>
+                           </div>
+                       </div>
+                       <div class="col-4 px-4"> 
+                        <div class="row  ">
+                       <div class="col-4 px-0">
+                           <img src="./Template/10.jpeg" alt="" width="100px" height="100px" class=" card-img" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; "></div>
+                       <div class="col-8 bg-body-secondary align-content-center "  style="border-top-right-radius: 10px; border-bottom-right-radius: 10px; " >
+                           <div class="card-body">
+                                <h6 class=" card-title">Gallery Walpapper</h6>
+                           </div>
+                          </div>
+                   </div>
+               </div>       
+                            </div>
+ 
+                        </div>
+
+                        
+
+
+                    </form>
+    
+                   
+                    <div class="d-flex align-items-center gap-3">
+                        <a href="#" class="">
+                            <img src="./Template/bell.png" alt="Notifications" height="35">
+                        </a>
+                        <a href="#" class="">
+                            <img src="./Template/mess.png" alt="Messages" height="35">
+                        </a>
+                        <a href="./profile.html" class="">
+                            <img src="./Template/pro.png" alt="Profile" height="35">
+                        </a>
+    
+                        
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" id="userMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userMenu">
+                                <div class="   " style="width: 350px;  ; margin-top: 0px;">
+                                <div class="row   mx-0  px-2 "> 
+                                    <p class="" style="font-size: 14px;">Currently in</p>
+            
+                                    <div class="col ">
+                                        <div class="row  "  >
+                                            <div class="row bac mx-0 rounded  py-2 mx-0 px-0">
+                                            <div class="col-3  d-flex "> 
+                                                <img src="./Template/11.jpeg" class="mb-3 rounded-circle" alt="" width="60px" height="60px">
+                                            </div>
+                                            <div class="col-7 ">
+                                                <a href="./profile.html" class="text-decoration-none text-dark">
+                                                <h5 class="mb-1">Qais Qureshi</h5>
+                                                <p class="m-0" style="font-size: 12px;">Personal</p>
+                                                <p class="m-0" style="font-size:12px;">qaisazeeem25@gmail.com</p></a>
+                                            </div>
+                                            <div class="col-2 d-flex align-items-center">
+                                                <i><img src="./Template/tick.png" alt="" width="25px"></i>
+                                            </div>
+                                            </div>
+            
+                                    <div class="mx-0 px-1">
+                                    <p class=" px-2  mt-4" style="font-size: 14px; ">Your accounts</p>
+                                       <a href="" class="butn text-decoration-none text-dark "><h6 class="p-2 ">Add account</h6></a>
+                                       <a href=""  class="butn text-decoration-none text-dark"><h6 class="p-2  ">Convert to business</h6></a>  
+                                       <p class="" style="font-size: 14px;">More options</p>
+                                      <a href="" class=" butn text-decoration-none text-dark " ><h6 class="fw-bold  p-2">Setting</h6></a>
+                                      <a href="" class="butn text-decoration-none text-dark " ><h6 class="fw-bold p-2 ">Home feed tuner</h6></a>
+            
+                                      <div class="row bg-info mx-0 rounded  py-2 mx-0 px-0 mb-2"> 
+                                        
+                                        <div class="col-1 d-flex ">
+                                            <i><img src="./Template/icon i.png" alt="" width="15px"></i>
+                                        </div>
+                                        <div class="col-11 ">
+                                            <p class="m-0" style="font-size: 14px;">You can now link your Instagram and <br>other external accounts to Pinterest.</p>
+                                        </div>
+                                        </div>
+            
+            
+                                        
+            
+                                      <a href="" class="butn text-decoration-none text-dark" ><h6 class="fw-bold p-2 ">Claim external accounts</h6></a>
+                                      <a href="" class="butn text-decoration-none text-dark " ><h6 class="fw-bold p-2"> Install the Windows app</h6></a>
+                                      <a href="" class="butn text-decoration-none text-dark " ><h6 class="fw-bold p-2"> Reports and violations center</h6></a>
+                                      <a href="" class="butn text-decoration-none text-dark " ><h6 class="fw-bold p-2">Your privacy rights</h6></a>
+                                      
+                                     
+                                      <div class="butn"> <a href="" class=" text-decoration-none text-dark  d-flex align-items-center justify-content-between p-2">
+                                        <h6 class="fw-bold  "> Help center</h6>
+                                        <img src="./Template/open.png" alt="" width="16px" class="">
+                                      </a></div>  
+                                      <div class="butn"> <a href="" class=" text-decoration-none text-dark  d-flex align-items-center justify-content-between p-2">
+                                        <h6 class="fw-bold  ">Terms of service </h6>
+                                        <img src="./Template/open.png" alt="" width="16px" class="">
+                                      </a></div>  
+                                      <div class="butn"> <a href="" class=" text-decoration-none text-dark  d-flex align-items-center justify-content-between p-2">
+                                        <h6 class="fw-bold  "> Privacy policy </h6>
+                                        <img src="./Template/open.png" alt="" width="16px" class="">
+                                      </a></div>  
+                                      <div class="butn"> <a href="" class=" text-decoration-none text-dark  d-flex align-items-center justify-content-between p-2">
+                                        <h6 class="fw-bold  "> Be a beta tester </h6>
+                                        <img src="./Template/open.png" alt="" width="16px" class="">
+                                      </a></div>  
+                                      
+                                      <a href="" class="butn text-decoration-none text-dark" ><h6 class="fw-bold p-2 ">Log out</h6></a>
+                                      
+                                                    
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                                
+                                </div>
+            
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> MAin Section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+            <main>
+                <div class="container-fluid">
+                    <div class="row px-2">
+                        <div class="col-6 col-lg-2 p-1 ">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                           <a href="./pic.html"> <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500"></a>
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/2.jpeg" alt="" height="350">
+                            <img class="rounded w-100" src="./Template/13.jpeg" alt="" height="400">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="400"> 
+                            <img class="rounded w-100 my-2" src="./Template/13.jpeg" alt="" height="400">
+                            
+
+                        </div>
+                        <div class="col-6 col-lg-2 p-1">
+                            <img class="rounded w-100 my-2" src="./Template/2.jpeg" alt="" height="350">
+                            <img class="rounded w-100" src="./Template/13.jpeg" alt="" height="400">
+                            <img class="rounded w-100 my-2" src="./Template/4.jpeg" alt="" height="450">
+                            <img class="rounded w-100" src="./Template/5.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/3.jpeg" alt="" height="500">
+                            <img class="rounded w-100" src="./Template/4.jpeg" alt="" height="320">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="300">
+                            <img class="rounded w-100 my-2" src="./Template/4.jpeg" alt="" height="335">
+                            
+                            
+                        </div>
+                        <div class="col-6 col-lg-2 p-1">
+                            <img class="rounded w-100 my-2" src="./Template/3.jpeg" alt="" height="500">
+                            <img class="rounded w-100" src="./Template/4.jpeg" alt="" height="320">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/2.jpeg" alt="" height="350">
+                            <img class="rounded w-100" src="./Template/13.jpeg" alt="" height="400">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="285">
+                        </div>
+                        <div class="col-6 col-lg-2 p-1">
+                            <img class="rounded w-100 my-2" src="./Template/4.jpeg" alt="" height="450">
+                            <img class="rounded w-100" src="./Template/5.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/2.jpeg" alt="" height="350">
+                            <img class="rounded w-100" src="./Template/13.jpeg" alt="" height="300">
+                            <img class="rounded w-100 my-2" src="./Template/3.jpeg" alt="" height="255">
+                        </div>
+                        <div class="col-6 col-lg-2 p-1">
+                            <img class="rounded w-100 my-2" src="./Template/6.jpeg" alt="" style="height: 440;">
+                            <img class="rounded w-100" src="./Template/2.jpeg" alt="" height="400">
+                            <img class="rounded w-100 mb-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/2.jpeg" alt="" height="350">
+                            <img class="rounded w-100" src="./Template/13.jpeg" alt="" height="300">
+                            <img class="rounded w-100 my-2" src="./Template/6.jpeg" alt="" style="height: 300;">
+                            <img class="rounded w-100 " src="./Template/2.jpeg" alt="" height="335">
+                            
+                            
+                        </div>
+                        <div class="col-6 col-lg-2 p-1">
+                            <img class="rounded w-100 my-2" src="./Template/8.jpeg" alt="" height="400">
+                            <img class="rounded w-100" src="./Template/13.jpeg" alt="" height="300">
+                            <img class="rounded w-100 my-2" src="./Template/3.jpeg" alt="" height="500">
+                            <img class="rounded w-100" src="./Template/4.jpeg" alt="" height="320">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/1.jpeg" alt="" height="300">
+                            <img class="rounded w-100" src="./Template/10.jpeg" alt="" height="500">
+                            <img class="rounded w-100 my-2" src="./Template/6.jpeg" alt="" style="height:330px ;">
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+
+
+
+                
+
+            </main>
+
+          
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Foooooooooter  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+            <footer  class="container-fluid">
+                <div class=" container  text-dark py-4 px-3">
+                    
+
+
+                    <div class=" " style="text-align: center; " > 
+                        © 2024 <a href=""  class="text-decoration-none">
+                         | @kingqureshi</a>
+                            <a href="" class="text-decoration-none "  style="color: black;">
+                            | All Reserved</a>
+                          ​</div>
+                    
+
+                </div>
+
+
+
+            </footer>
+       
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+    
+</body>
+</html>
